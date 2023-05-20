@@ -13,6 +13,33 @@
 /* #Primary
 ================================================== */
 
+@font-face {
+    font-family: 'Radius';
+    src: url('Bradia-Bold.woff2') format('woff2'),
+        url('Bradia-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Radius';
+    src: url('Bradia-Regular.woff2') format('woff2'),
+        url('Bradia-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Radius';
+    src: url('Bradia-Light.woff2') format('woff2'),
+        url('Bradia-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
 body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -23,7 +50,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 	font-weight: 300;
 	margin-bottom: 0;
 	line-height: 1.25;
@@ -958,7 +985,7 @@ Mobile style's
 	font-size: 62px;
 	line-height: 1.25;
 	font-weight: 300;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 }
 .hero-text-ver-2{
 	color: #fff;
@@ -966,7 +993,7 @@ Mobile style's
 	font-size: 5.5vw;
 	line-height: 1.1;
 	font-weight: 300;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 }
 .hero-small-text{
 	color: #fff;
@@ -1720,7 +1747,7 @@ select.form {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	width: 100%;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 	font-size: 13px;
 	line-height: 1.2;
 	text-transform: uppercase;
@@ -2630,7 +2657,7 @@ figure.vimeo a img, figure.youtube a img {
 	text-transform: uppercase;
 	font-weight:400;
 	letter-spacing: 2px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 	color: #fff;
 	text-align: right;
 }
@@ -2960,7 +2987,7 @@ figure.vimeo a img, figure.youtube a img {
 	z-index:2;
 	width:100%;
 	opacity:0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 	font-weight:400;
 	font-size: 13px;
 	line-height:20px;
@@ -3166,7 +3193,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 .post-comm-box h6 small{
 	text-transform: none;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 	font-weight:400;
 	font-size: .7rem;
 	font-style: italic;
@@ -3182,7 +3209,7 @@ figure.vimeo a img, figure.youtube a img {
 	padding-bottom: 15px;
 }
 .form-control {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Radius';
 	font-weight:400;
 	padding: 0.8rem 0.75rem;
 	font-size: .8rem;
